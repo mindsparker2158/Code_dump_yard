@@ -1,0 +1,22 @@
+package practicequestions;
+import java.io.*;
+import java.lang.annotation.AnnotationTypeMismatchException;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args)  {
+		Scanner scan = new Scanner(System.in);
+		try {
+			System.out.println("First number");
+			int num1 = scan.nextInt();
+			
+		}
+		catch(InputMismatchException eq){
+			System.out.println("Please enter interger only");
+			
+		}
+	}
+	
+}

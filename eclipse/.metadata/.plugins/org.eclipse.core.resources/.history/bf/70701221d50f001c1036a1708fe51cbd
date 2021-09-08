@@ -1,0 +1,13 @@
+
+public class Gst {
+	public double gst(int price) throws Exception {
+		double priceaftergst = (price+(price*.1));
+		if(priceaftergst>=1000) {
+			System.out.println(throw new Exception("free Gift voucher added");
+		}
+	else {
+		System.out.println(throw new Exception("Shop more than 1000 to avail Gift voucher");
+	}
+
+}
+}

@@ -1,0 +1,32 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) throws FileNotFoundException {
+//		for(int i=0; i<3; i++ ) {
+//	Scanner input = new Scanner(System.in);
+//	System.out.println("Enter Your name : ");
+//	String name = input.nextLine();
+//	System.out.println("Your name is " +name);
+//	}
+		
+//		File file = new File("myfile.txt");
+//		Scanner input = new Scanner(file);
+//		while (input.hasNextLine()){
+//			String Line = input.nextLine();
+//			System.out.println(Line);
+//			}
+//		input.close();
+		Gst gst = new Gst();
+		try {
+			System.out.println(gst.gst(9999));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	
+}

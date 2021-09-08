@@ -1,0 +1,21 @@
+package practicequestions;
+
+import java.io.*;
+import java.util.Scanner;
+
+//import com.sun.tools.jdeprscan.scan.Scan;
+
+public class Application {
+
+	public static void main(String[] args)  {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter First Number :");
+		int num1 = input.nextInt();
+		System.out.println(input.ioException());
+		System.out.println("Enter Second Number :");
+		int num2 = input.nextInt();
+		System.out.println(num1 +"+" +num2 +"=" +(num1+num2));
+		
+	}
+	
+}

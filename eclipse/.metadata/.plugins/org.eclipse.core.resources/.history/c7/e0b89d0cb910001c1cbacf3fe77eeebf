@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+	ArrayList words = new ArrayList();
+	words.add("Hello");
+	words.add("There");
+	words.add(10);
+	words.add(9);
+	words.add(9.5);
+	
+	int item1 = (int) words.get(2);
+	double item2 = (double) words.get(4);
+	System.out.println(item1+item2);
+
+	}
+
+}

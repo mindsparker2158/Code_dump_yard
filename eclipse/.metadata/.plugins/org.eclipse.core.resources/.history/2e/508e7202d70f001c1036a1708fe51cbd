@@ -1,0 +1,24 @@
+
+public class Gst {
+	public double gst(int price) throws giftcard {
+		double priceaftergst = (price+(price*0.1));
+		if(priceaftergst>=10000) {
+			System.out.println("Gift voucher added");
+		}
+	else {
+		throw new giftcard("Shop more than 10000 to avail Gift voucher");
+	}
+		return priceaftergst;
+
+}
+	public class giftcard extends Exception{
+
+		private static String mesage;
+
+		public giftcard(String string) {
+			super(mesage);
+
+		}
+		
+	}
+}
